@@ -10,7 +10,7 @@ DEEPSEEK_API_KEY = "sk-8dca673d82b74bf59bac651337b7fba8"  # 直接在此处填�
 
 # 页面配置
 st.set_page_config(
-    page_title="Dog wy",
+    page_title="DeepSeek Chat",
     page_icon="🤖",
     layout="centered",
     initial_sidebar_state="expanded"
@@ -81,8 +81,8 @@ def main():
     initialize_session_state()
     sidebar_controls()
 
-    st.title("🤖 Dog wy Chat")
-    st.caption("与Dog wy进行对话 - 网页版")
+    st.title("🤖 DeepSeek Chat")
+    st.caption("与DeepSeek Chat进行对话 - 网页版")
     display_chat_messages()
 
     # 用户输入处理
